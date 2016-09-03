@@ -12,12 +12,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
 
     tools:context="com.example.rishabhkhanna.code_n_counter.MainActivity">
-
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="150sp"
         android:layout_height="150sp"
         android:layout_marginTop="75sp"
         android:layout_gravity="center"
+        android:id="@+id/icon"
         android:src="@drawable/images"
         />
     <TextView
@@ -33,6 +33,7 @@
         android:typeface="serif"
 
         />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_marginTop="20sp"

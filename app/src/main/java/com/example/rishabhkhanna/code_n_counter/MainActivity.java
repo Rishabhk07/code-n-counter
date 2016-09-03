@@ -1,11 +1,17 @@
 package com.example.rishabhkhanna.code_n_counter;
 
+import android.animation.Keyframe;
+import android.animation.ObjectAnimator;
+import android.animation.PropertyValuesHolder;
+import android.animation.ValueAnimator;
 import android.content.Intent;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
+import android.view.animation.BounceInterpolator;
+import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
@@ -20,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
     Button teacher;
     Button student;
 
-    ImageView im1,im2;
+    ImageView im1,icon,im2;
+
+
 
     public static final float START_FROM = 0f;
     public static final float END_1 = 360f;
@@ -37,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
 
         im1 = (ImageView) findViewById(R.id.image_1);
         im2 = (ImageView) findViewById(R.id.image_2);
+
+        icon = (ImageView) findViewById(R.id.icon);
 
         teacher.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,5 +79,7 @@ public class MainActivity extends AppCompatActivity {
         rotateAnimation1.setDuration((long)10000);
         im2.setAnimation(rotateAnimation1);
 
+
+        
     }
 }
