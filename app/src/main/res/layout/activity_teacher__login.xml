@@ -66,9 +66,10 @@
                     />
                 <EditText
                     android:layout_gravity="bottom"
+                    android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:inputType="text"
                     android:id="@+id/loginID"
                     android:ems="15"
@@ -93,7 +94,8 @@
                     android:layout_gravity="bottom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
                     android:inputType="text"
                     android:id="@+id/passWordTeacher"
                     android:ems="15"

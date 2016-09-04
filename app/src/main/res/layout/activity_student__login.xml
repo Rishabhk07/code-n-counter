@@ -71,8 +71,10 @@
                    android:layout_gravity="bottom"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:textColor="@color/black"
+                   android:textColor="@color/white"
                    android:inputType="text"
+                   android:textSize="20sp"
+
                    android:id="@+id/loginIDstudent"
                    android:ems="15"
                    />
@@ -97,8 +99,9 @@
                     android:layout_gravity="bottom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:inputType="text"
+                    android:textSize="20sp"
                     android:id="@+id/passWord"
                     android:ems="15"
                     />
