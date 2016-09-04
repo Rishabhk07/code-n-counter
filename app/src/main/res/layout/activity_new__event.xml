@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey"
+    android:background="#333"
     tools:context="com.example.rishabhkhanna.code_n_counter.UIs.New_Event">
     <LinearLayout
         android:layout_marginLeft="20sp"
@@ -24,11 +24,11 @@
         android:textColor="@color/white"
         android:ems="15"
         android:id="@+id/eventNameCardView"
-        android:textColorHint="@color/black"
+        android:textColorHint="@color/grey"
         />
         <EditText
             android:layout_width="wrap_content"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/grey"
             android:textSize="20sp"
             android:textColor="@color/white"
 
@@ -45,11 +45,11 @@
             android:id="@+id/topicEvent"
             android:textSize="20sp"
             android:textColor="@color/white"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/grey"
             />
 
         <EditText
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/grey"
             android:textSize="20sp"
             android:textColor="@color/white"
 
