@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     Button teacher;
     Button student;
 
-    ImageView im1,icon,im2;
+    ImageView im1,im2;
 
 
 
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         im1 = (ImageView) findViewById(R.id.image_1);
         im2 = (ImageView) findViewById(R.id.image_2);
 
-        icon = (ImageView) findViewById(R.id.icon);
+      //  icon = (ImageView) findViewById(R.id.icon);
 
         teacher.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,6 +80,6 @@ public class MainActivity extends AppCompatActivity {
         im2.setAnimation(rotateAnimation1);
 
 
-        
+
     }
 }
